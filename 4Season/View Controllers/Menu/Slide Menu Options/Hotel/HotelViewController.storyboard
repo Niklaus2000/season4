@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZrU-l2-aGM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hotel View Controller-->
+        <scene sceneID="bHX-Rs-Yhz">
+            <objects>
+                <tabBarController storyboardIdentifier="HotelViewController" id="ZrU-l2-aGM" customClass="HotelViewController" customModule="_Season" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" id="ZSy-Lx-qLb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="HpV-CR-seH" kind="relationship" relationship="viewControllers" id="ezr-ha-SRr"/>
+                        <segue destination="lxx-aK-Ayf" kind="relationship" relationship="viewControllers" id="aiY-HJ-Cd8"/>
+                        <segue destination="3YC-Zx-sNN" kind="relationship" relationship="viewControllers" id="mpg-Gy-gLf"/>
+                        <segue destination="tn8-g3-SRK" kind="relationship" relationship="viewControllers" id="rNK-Oa-hxY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdm-EG-BjY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-181" y="-403"/>
+        </scene>
+        <!--SpringHotelViewController-->
+        <scene sceneID="gb0-B2-dQH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SpringHotelViewController" referencedIdentifier="SpringHotelViewController" id="HpV-CR-seH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="oBD-ck-8mQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3t2-av-Ww7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="591" y="-659"/>
+        </scene>
+        <!--SummerHotelViewController-->
+        <scene sceneID="nOK-qm-5jl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SummerHotelViewController" referencedIdentifier="SummerHotelViewController" id="lxx-aK-Ayf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="lHp-Ai-IuI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hLF-c6-6p9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="583" y="-548"/>
+        </scene>
+        <!--AutmunHotelViewController-->
+        <scene sceneID="wkN-dW-IJh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AutmunHotelViewController" referencedIdentifier="AutmunHotelViewController" id="3YC-Zx-sNN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="iNQ-40-eEW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2I-DD-Dkg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="562" y="-461"/>
+        </scene>
+        <!--WinterHotelViewController-->
+        <scene sceneID="cw9-5x-Glw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="WinterHotelViewController" referencedIdentifier="WinterHotelViewController" id="tn8-g3-SRK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="iKA-g4-Sl0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XfL-eJ-EoG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="583" y="-362"/>
+        </scene>
+    </scenes>
+</document>

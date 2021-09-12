@@ -1,0 +1,2197 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C974E10F9712741ACF00EE /* Pods_4Season.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAF6A2C1360997178462533 /* Pods_4Season.framework */; };
+		0E51C2ABB17BFCD4B65748FC /* Pods_4SeasonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEBAE8AEA27D25A20A56217 /* Pods_4SeasonTests.framework */; };
+		A40DF96426726DEB00AE7557 /* UIVIewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40DF96326726DEB00AE7557 /* UIVIewController+Extensions.swift */; };
+		A40DF9682672B55700AE7557 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40DF9672672B55700AE7557 /* MenuViewController.swift */; };
+		A40DF96E26735DC600AE7557 /* gift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40DF96D26735DC600AE7557 /* gift+Extensions.swift */; };
+		A40DF9702673903A00AE7557 /* MenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40DF96F2673903A00AE7557 /* MenuViewController.storyboard */; };
+		A40DF97826739B2E00AE7557 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40DF97726739B2E00AE7557 /* AboutViewController.swift */; };
+		A40DF97A26739D5E00AE7557 /* AboutViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40DF97926739D5E00AE7557 /* AboutViewController.storyboard */; };
+		A426120326A42C360035B241 /* TaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426120126A42C360035B241 /* TaxTableViewCell.swift */; };
+		A426120426A42C360035B241 /* TaxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A426120226A42C360035B241 /* TaxTableViewCell.xib */; };
+		A426120726A462A60035B241 /* TaxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426120626A462A60035B241 /* TaxData.swift */; };
+		A426120926A5A4F60035B241 /* TaxCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426120826A5A4F60035B241 /* TaxCallViewController.swift */; };
+		A426120B26A5A64B0035B241 /* TaxCallViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A426120A26A5A64B0035B241 /* TaxCallViewController.storyboard */; };
+		A426120E26A5D4170035B241 /* SpringHotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426120D26A5D4170035B241 /* SpringHotelTableViewCell.swift */; };
+		A426121026A5D4D70035B241 /* SpringHotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A426120F26A5D4D70035B241 /* SpringHotelTableViewCell.xib */; };
+		A4263D0A26AAE4F000FFF4FC /* WinterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4263D0826AAE4F000FFF4FC /* WinterTableViewCell.swift */; };
+		A4263D0B26AAE4F000FFF4FC /* WinterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4263D0926AAE4F000FFF4FC /* WinterTableViewCell.xib */; };
+		A4301B1126AB506500554849 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301B1026AB506500554849 /* UITableView+Extensions.swift */; };
+		A4301B1426AB50AF00554849 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301B1326AB50AF00554849 /* UITableViewCell+Extension.swift */; };
+		A4301B1826AB541B00554849 /* WintersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301B1726AB541B00554849 /* WintersManager.swift */; };
+		A4301B1C26AB558F00554849 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301B1B26AB558F00554849 /* NetworkManager.swift */; };
+		A4301B1F26AB5C5A00554849 /* Winter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301B1E26AB5C5A00554849 /* Winter.swift */; };
+		A4301B2926ABF40F00554849 /* FlyTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301B2826ABF40F00554849 /* FlyTicketViewController.swift */; };
+		A4301B2B26ABF42900554849 /* FlyTicketViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4301B2A26ABF42900554849 /* FlyTicketViewController.storyboard */; };
+		A4301B3026AC16CD00554849 /* FlyTicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301B2E26AC16CD00554849 /* FlyTicketTableViewCell.swift */; };
+		A4301B3126AC16CD00554849 /* FlyTicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4301B2F26AC16CD00554849 /* FlyTicketTableViewCell.xib */; };
+		A4301B3826AC70E700554849 /* BookTicketFlyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4301B3726AC70E700554849 /* BookTicketFlyViewController.storyboard */; };
+		A4301B3A26AC79C700554849 /* BookTicketFlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301B3926AC79C700554849 /* BookTicketFlyViewController.swift */; };
+		A44728BB2673E8FE005C3B99 /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44728BA2673E8FE005C3B99 /* SpringViewController.swift */; };
+		A44728BD2673E90D005C3B99 /* SpringViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44728BC2673E90D005C3B99 /* SpringViewController.storyboard */; };
+		A44728C22673FE58005C3B99 /* SummerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44728C12673FE58005C3B99 /* SummerViewController.swift */; };
+		A44728C42673FE77005C3B99 /* SummerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44728C32673FE77005C3B99 /* SummerViewController.storyboard */; };
+		A44728C6267401DF005C3B99 /* AutmunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44728C5267401DF005C3B99 /* AutmunViewController.swift */; };
+		A44728CA26740202005C3B99 /* AutmunViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44728C926740202005C3B99 /* AutmunViewController.storyboard */; };
+		A44728CC2674027C005C3B99 /* WinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44728CB2674027C005C3B99 /* WinterViewController.swift */; };
+		A44728CE26740291005C3B99 /* WinterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44728CD26740291005C3B99 /* WinterViewController.storyboard */; };
+		A44728D1267405F1005C3B99 /* SpringCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44728D0267405F1005C3B99 /* SpringCollectionViewCell.swift */; };
+		A44728D42674062B005C3B99 /* SummerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44728D32674062B005C3B99 /* SummerCollectionViewCell.swift */; };
+		A44728D726740737005C3B99 /* AutmunCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44728D626740737005C3B99 /* AutmunCollectionViewCell.swift */; };
+		A44728DA2674088A005C3B99 /* WinterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44728D92674088A005C3B99 /* WinterCollectionViewCell.swift */; };
+		A44728DD2674A34A005C3B99 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A44728DC2674A34A005C3B99 /* Kingfisher */; };
+		A462B62E26ADB510009668D2 /* SummerBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462B62D26ADB510009668D2 /* SummerBookViewController.swift */; };
+		A462B63026ADB53C009668D2 /* SummerBookViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A462B62F26ADB53C009668D2 /* SummerBookViewController.storyboard */; };
+		A462B63726ADCE14009668D2 /* SummerHotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462B63626ADCE14009668D2 /* SummerHotelTableViewCell.swift */; };
+		A462B63926ADCE25009668D2 /* SummerHotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A462B63826ADCE25009668D2 /* SummerHotelTableViewCell.xib */; };
+		A462B63D26ADD38C009668D2 /* SummerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462B63C26ADD38C009668D2 /* SummerData.swift */; };
+		A462B64026ADEE1E009668D2 /* SummerHotelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462B63F26ADEE1E009668D2 /* SummerHotelCollectionViewCell.swift */; };
+		A462B64426AE22C1009668D2 /* SpringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462B64326AE22C1009668D2 /* SpringData.swift */; };
+		A462B64926AE29CD009668D2 /* SpringBookViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A462B64826AE29CD009668D2 /* SpringBookViewController.storyboard */; };
+		A462B64B26AE2B0D009668D2 /* SpringBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462B64A26AE2B0D009668D2 /* SpringBookViewController.swift */; };
+		A462B65026AEAA03009668D2 /* SVGImgProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462B64F26AEAA03009668D2 /* SVGImgProcessor.swift */; };
+		A46E28022691C54700ACC653 /* SpringHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E28012691C54700ACC653 /* SpringHotelViewController.swift */; };
+		A46E28042691C56000ACC653 /* SpringHotelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46E28032691C56000ACC653 /* SpringHotelViewController.storyboard */; };
+		A46E28062691C59600ACC653 /* SummerHotelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46E28052691C59600ACC653 /* SummerHotelViewController.storyboard */; };
+		A46E28092691C5DC00ACC653 /* SummerHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E28082691C5DC00ACC653 /* SummerHotelViewController.swift */; };
+		A46E280B2691C7B900ACC653 /* AutmunHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E280A2691C7B900ACC653 /* AutmunHotelViewController.swift */; };
+		A46E280D2691C90700ACC653 /* AutmunHotelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46E280C2691C90700ACC653 /* AutmunHotelViewController.storyboard */; };
+		A46E280F2691CB2A00ACC653 /* WinterHotelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46E280E2691CB2A00ACC653 /* WinterHotelViewController.storyboard */; };
+		A46E28112691CB4100ACC653 /* WinterHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E28102691CB4100ACC653 /* WinterHotelViewController.swift */; };
+		A46F592A26AEDF7600A32573 /* SpringHotelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F592926AEDF7600A32573 /* SpringHotelCollectionViewCell.swift */; };
+		A46F592D26AF0B6800A32573 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = A46F592C26AF0B6800A32573 /* SVGKit */; };
+		A46F592F26AF0B6800A32573 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A46F592E26AF0B6800A32573 /* SVGKitSwift */; };
+		A46F593326B06BCE00A32573 /* AutmunHotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F593126B06BCE00A32573 /* AutmunHotelTableViewCell.swift */; };
+		A46F593426B06BCE00A32573 /* AutmunHotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46F593226B06BCE00A32573 /* AutmunHotelTableViewCell.xib */; };
+		A46F593626B0718400A32573 /* AutmunData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F593526B0718400A32573 /* AutmunData.swift */; };
+		A46F593926B1993C00A32573 /* AutmunBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F593826B1993C00A32573 /* AutmunBookViewController.swift */; };
+		A46F593B26B1994C00A32573 /* AutmunBookViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46F593A26B1994C00A32573 /* AutmunBookViewController.storyboard */; };
+		A46F593E26B19FA400A32573 /* AutmunHotelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F593D26B19FA400A32573 /* AutmunHotelCollectionViewCell.swift */; };
+		A46F594326B1B29A00A32573 /* WinterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F594226B1B29A00A32573 /* WinterData.swift */; };
+		A46F594D26B1D01700A32573 /* WinterHotelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F594C26B1D01700A32573 /* WinterHotelCollectionViewCell.swift */; };
+		A46F594F26B1DCE100A32573 /* WinterBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F594E26B1DCE100A32573 /* WinterBookViewController.swift */; };
+		A46F595126B1DCF100A32573 /* WinterBookViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46F595026B1DCF100A32573 /* WinterBookViewController.storyboard */; };
+		A46F595426B2438200A32573 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F595326B2438200A32573 /* OnboardingViewController.swift */; };
+		A4714F6526765BDF0004C0A8 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714F6426765BDF0004C0A8 /* HotelViewController.swift */; };
+		A4714F6A267661DD0004C0A8 /* TaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714F69267661DD0004C0A8 /* TaxViewController.swift */; };
+		A4714F6C267661E80004C0A8 /* TaxViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4714F6B267661E80004C0A8 /* TaxViewController.storyboard */; };
+		A4714F6E267662010004C0A8 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714F6D267662010004C0A8 /* WeatherViewController.swift */; };
+		A4714F702676621F0004C0A8 /* WeatherViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4714F6F2676621F0004C0A8 /* WeatherViewController.storyboard */; };
+		A4714F772676625D0004C0A8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714F762676625D0004C0A8 /* CameraViewController.swift */; };
+		A4714F79267662720004C0A8 /* CameraViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4714F78267662720004C0A8 /* CameraViewController.storyboard */; };
+		A4714F7B267662930004C0A8 /* MemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714F7A267662930004C0A8 /* MemoriesViewController.swift */; };
+		A4714F7D267662B70004C0A8 /* MemoriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4714F7C267662B70004C0A8 /* MemoriesViewController.storyboard */; };
+		A4714F7F267662CC0004C0A8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714F7E267662CC0004C0A8 /* SettingsViewController.swift */; };
+		A4714F81267662D90004C0A8 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4714F80267662D90004C0A8 /* SettingsViewController.storyboard */; };
+		A4714F83267662F50004C0A8 /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4714F82267662F50004C0A8 /* SignOutViewController.swift */; };
+		A4714F85267663010004C0A8 /* SignOutViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4714F84267663010004C0A8 /* SignOutViewController.storyboard */; };
+		A484F7E926A60AEF0037911A /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484F7E826A60AEF0037911A /* UIImageViewExtensions.swift */; };
+		A4C29D5F269F2A7C0014D5FE /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C29D5E269F2A7C0014D5FE /* WeatherManager.swift */; };
+		A4C29D61269F2EE50014D5FE /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C29D60269F2EE50014D5FE /* WeatherData.swift */; };
+		A4C29D63269F2F160014D5FE /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C29D62269F2F160014D5FE /* WeatherModel.swift */; };
+		A4D1E54C2673B2E300EE0AA1 /* autmun.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4D1E54B2673B2E300EE0AA1 /* autmun.gif */; };
+		A4D1E54F2673C54100EE0AA1 /* winter.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4D1E54E2673C54100EE0AA1 /* winter.gif */; };
+		A4D1E5512673C54F00EE0AA1 /* summer.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4D1E5502673C54F00EE0AA1 /* summer.gif */; };
+		A4D1E5532673C55B00EE0AA1 /* spring.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4D1E5522673C55B00EE0AA1 /* spring.gif */; };
+		A4E0ECF72674FD3F00D940F1 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E0ECF62674FD3F00D940F1 /* SlideInTransition.swift */; };
+		A4E417E126761694004CBA5C /* LikeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E417E026761694004CBA5C /* LikeAnimator.swift */; };
+		A4E80983269B1423007F185A /* HotelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E80982269B1423007F185A /* HotelViewController.storyboard */; };
+		A4EC62F3266D26D700F92E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62F2266D26D700F92E21 /* AppDelegate.swift */; };
+		A4EC62F5266D26D700F92E21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62F4266D26D700F92E21 /* SceneDelegate.swift */; };
+		A4EC62F7266D26D700F92E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62F6266D26D700F92E21 /* ViewController.swift */; };
+		A4EC62FA266D26D700F92E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC62F8266D26D700F92E21 /* Main.storyboard */; };
+		A4EC62FC266D26DA00F92E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EC62FB266D26DA00F92E21 /* Assets.xcassets */; };
+		A4EC62FF266D26DA00F92E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC62FD266D26DA00F92E21 /* LaunchScreen.storyboard */; };
+		A4EC630A266D26DA00F92E21 /* _SeasonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC6309266D26DA00F92E21 /* _SeasonTests.swift */; };
+		A4EC6315266D26DA00F92E21 /* _SeasonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC6314266D26DA00F92E21 /* _SeasonUITests.swift */; };
+		A4EC6326266D326B00F92E21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC6325266D326B00F92E21 /* HomeViewController.swift */; };
+		A4EC6328266D328500F92E21 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC6327266D328500F92E21 /* HomeViewController.storyboard */; };
+		A4EC632A266D32C100F92E21 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC6329266D32C100F92E21 /* SignUpViewController.swift */; };
+		A4EC632C266D32DE00F92E21 /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC632B266D32DE00F92E21 /* SignUpViewController.storyboard */; };
+		A4EC632E266D330200F92E21 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC632D266D330200F92E21 /* LogInViewController.swift */; };
+		A4EC6334266D360000F92E21 /* LogInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC6333266D360000F92E21 /* LogInViewController.storyboard */; };
+		A4EC6338266D569D00F92E21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4EC6337266D569D00F92E21 /* GoogleService-Info.plist */; };
+		B7AC572126E4F92600CA39A8 /* launchScreenJson.json in Resources */ = {isa = PBXBuildFile; fileRef = B7AC572026E4F92600CA39A8 /* launchScreenJson.json */; };
+		B7AC572426E4FCAB00CA39A8 /* LogInExtenssions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC572326E4FCAB00CA39A8 /* LogInExtenssions.swift */; };
+		B7AC572726E5057800CA39A8 /* LaunchScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC572626E5057800CA39A8 /* LaunchScreenExtension.swift */; };
+		B7AC572A26E5066F00CA39A8 /* SignUpExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC572926E5066F00CA39A8 /* SignUpExtension.swift */; };
+		B7AC572D26E5098B00CA39A8 /* SpringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC572C26E5098B00CA39A8 /* SpringExtension.swift */; };
+		B7AC573026E50AAA00CA39A8 /* SummerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC572F26E50AAA00CA39A8 /* SummerExtension.swift */; };
+		B7AC573226E50C2C00CA39A8 /* WinterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC573126E50C2C00CA39A8 /* WinterExtension.swift */; };
+		B7AC573626E5122F00CA39A8 /* FlyTicketDAata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC573526E5122F00CA39A8 /* FlyTicketDAata.swift */; };
+		B7AC573926E51AD700CA39A8 /* travelAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = B7AC573826E51AD700CA39A8 /* travelAnimation.json */; };
+		F1B4094EA482ACEBBC341D32 /* Pods_4Season_4SeasonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF9B500E9A99B26F9630CD9 /* Pods_4Season_4SeasonUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A46F596E26B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF96B57ADE05E8909F823BDF6868B3E3;
+			remoteInfo = abseil;
+		};
+		A46F597026B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 514D7742C6CBB0BDBD9984AEE97DDFDE;
+			remoteInfo = "BoringSSL-GRPC";
+		};
+		A46F597226B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43B1E4CD7B30B9FD278100133C2AC788;
+			remoteInfo = FirebaseAuth;
+		};
+		A46F597426B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2B63D462DB7F827C4B11FD51E4F8E2D;
+			remoteInfo = FirebaseCore;
+		};
+		A46F597626B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CC9178C366942FD6FF6A115604EAD58;
+			remoteInfo = FirebaseCoreDiagnostics;
+		};
+		A46F597826B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 92000153CD73F7FC2DBAB4AB708269F3;
+			remoteInfo = FirebaseFirestore;
+		};
+		A46F597A26B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13C8C8B254851998F9289F71229B28A2;
+			remoteInfo = FirebaseInstallations;
+		};
+		A46F597C26B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 856B5CD56F194FAD26EA91620B66D614;
+			remoteInfo = GoogleDataTransport;
+		};
+		A46F597E26B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B43874C6CBB50E7134FBEC24BABFE14F;
+			remoteInfo = GoogleUtilities;
+		};
+		A46F598026B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1911113E0FBF13CFF9132E5FF7685228;
+			remoteInfo = "gRPC-C++";
+		};
+		A46F598226B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7C87B5D0A6752AFA2642F1BCA967A3;
+			remoteInfo = "gRPC-C++-gRPCCertificates-Cpp";
+		};
+		A46F598426B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B471867C535B02FA55D87E260F6480F8;
+			remoteInfo = "gRPC-Core";
+		};
+		A46F598626B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C1998E0D8085221AD87F89B614C10E52;
+			remoteInfo = GTMSessionFetcher;
+		};
+		A46F598826B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A9F46A999C47653013D3AD854352507;
+			remoteInfo = "leveldb-library";
+		};
+		A46F598A26B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06FC5C9CF96D60C50FCD47D339C91951;
+			remoteInfo = nanopb;
+		};
+		A46F598C26B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40E994F9B6CE39CEC05E92584D755A33;
+			remoteInfo = "Pods-4Season";
+		};
+		A46F598E26B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 745B57F1BB4CFBE3DE65FCD12B17546C;
+			remoteInfo = "Pods-4Season-4SeasonUITests";
+		};
+		A46F599026B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B5FA0545A64E9A8153A92CF0CE46941;
+			remoteInfo = "Pods-4SeasonTests";
+		};
+		A46F599226B292BE00A32573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3347A1AB6546F0A3977529B8F199DC41;
+			remoteInfo = PromisesObjC;
+		};
+		A4EC6306266D26DA00F92E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4EC62E7266D26D700F92E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EC62EE266D26D700F92E21;
+			remoteInfo = 4Season;
+		};
+		A4EC6311266D26DA00F92E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4EC62E7266D26D700F92E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EC62EE266D26D700F92E21;
+			remoteInfo = 4Season;
+		};
+		B7AC571E26E4F90900CA39A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51BA97E8B5085EFFB47BC9C0B785CEA7;
+			remoteInfo = "lottie-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5507C236EED792B2FEB48E54 /* Pods-4SeasonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4SeasonTests.debug.xcconfig"; path = "Target Support Files/Pods-4SeasonTests/Pods-4SeasonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB60A2573489787790CBCB6 /* Pods-4Season.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4Season.debug.xcconfig"; path = "Target Support Files/Pods-4Season/Pods-4Season.debug.xcconfig"; sourceTree = "<group>"; };
+		6BE72C7002A899062E2F99A7 /* Pods-4Season.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4Season.release.xcconfig"; path = "Target Support Files/Pods-4Season/Pods-4Season.release.xcconfig"; sourceTree = "<group>"; };
+		74BDC5405425A9553DDB947A /* Pods-4Season-4SeasonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4Season-4SeasonUITests.debug.xcconfig"; path = "Target Support Files/Pods-4Season-4SeasonUITests/Pods-4Season-4SeasonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94A0777CA039AF5B914E23F1 /* Pods-4Season-4SeasonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4Season-4SeasonUITests.release.xcconfig"; path = "Target Support Files/Pods-4Season-4SeasonUITests/Pods-4Season-4SeasonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9EF9B500E9A99B26F9630CD9 /* Pods_4Season_4SeasonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4Season_4SeasonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40DF96326726DEB00AE7557 /* UIVIewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Extensions.swift"; sourceTree = "<group>"; };
+		A40DF9672672B55700AE7557 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A40DF96D26735DC600AE7557 /* gift+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gift+Extensions.swift"; sourceTree = "<group>"; };
+		A40DF96F2673903A00AE7557 /* MenuViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuViewController.storyboard; sourceTree = "<group>"; };
+		A40DF97726739B2E00AE7557 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A40DF97926739D5E00AE7557 /* AboutViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutViewController.storyboard; sourceTree = "<group>"; };
+		A426120126A42C360035B241 /* TaxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxTableViewCell.swift; sourceTree = "<group>"; };
+		A426120226A42C360035B241 /* TaxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaxTableViewCell.xib; sourceTree = "<group>"; };
+		A426120626A462A60035B241 /* TaxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxData.swift; sourceTree = "<group>"; };
+		A426120826A5A4F60035B241 /* TaxCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCallViewController.swift; sourceTree = "<group>"; };
+		A426120A26A5A64B0035B241 /* TaxCallViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaxCallViewController.storyboard; sourceTree = "<group>"; };
+		A426120D26A5D4170035B241 /* SpringHotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringHotelTableViewCell.swift; sourceTree = "<group>"; };
+		A426120F26A5D4D70035B241 /* SpringHotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpringHotelTableViewCell.xib; sourceTree = "<group>"; };
+		A4263D0826AAE4F000FFF4FC /* WinterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTableViewCell.swift; sourceTree = "<group>"; };
+		A4263D0926AAE4F000FFF4FC /* WinterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinterTableViewCell.xib; sourceTree = "<group>"; };
+		A4301B1026AB506500554849 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		A4301B1326AB50AF00554849 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		A4301B1726AB541B00554849 /* WintersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WintersManager.swift; sourceTree = "<group>"; };
+		A4301B1B26AB558F00554849 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A4301B1E26AB5C5A00554849 /* Winter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winter.swift; sourceTree = "<group>"; };
+		A4301B2826ABF40F00554849 /* FlyTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyTicketViewController.swift; sourceTree = "<group>"; };
+		A4301B2A26ABF42900554849 /* FlyTicketViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FlyTicketViewController.storyboard; sourceTree = "<group>"; };
+		A4301B2E26AC16CD00554849 /* FlyTicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyTicketTableViewCell.swift; sourceTree = "<group>"; };
+		A4301B2F26AC16CD00554849 /* FlyTicketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlyTicketTableViewCell.xib; sourceTree = "<group>"; };
+		A4301B3726AC70E700554849 /* BookTicketFlyViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookTicketFlyViewController.storyboard; sourceTree = "<group>"; };
+		A4301B3926AC79C700554849 /* BookTicketFlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketFlyViewController.swift; sourceTree = "<group>"; };
+		A44728BA2673E8FE005C3B99 /* SpringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
+		A44728BC2673E90D005C3B99 /* SpringViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpringViewController.storyboard; sourceTree = "<group>"; };
+		A44728C12673FE58005C3B99 /* SummerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerViewController.swift; sourceTree = "<group>"; };
+		A44728C32673FE77005C3B99 /* SummerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SummerViewController.storyboard; sourceTree = "<group>"; };
+		A44728C5267401DF005C3B99 /* AutmunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutmunViewController.swift; sourceTree = "<group>"; };
+		A44728C926740202005C3B99 /* AutmunViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutmunViewController.storyboard; sourceTree = "<group>"; };
+		A44728CB2674027C005C3B99 /* WinterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterViewController.swift; sourceTree = "<group>"; };
+		A44728CD26740291005C3B99 /* WinterViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WinterViewController.storyboard; sourceTree = "<group>"; };
+		A44728D0267405F1005C3B99 /* SpringCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCollectionViewCell.swift; sourceTree = "<group>"; };
+		A44728D32674062B005C3B99 /* SummerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCollectionViewCell.swift; sourceTree = "<group>"; };
+		A44728D626740737005C3B99 /* AutmunCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutmunCollectionViewCell.swift; sourceTree = "<group>"; };
+		A44728D92674088A005C3B99 /* WinterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterCollectionViewCell.swift; sourceTree = "<group>"; };
+		A462B62D26ADB510009668D2 /* SummerBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerBookViewController.swift; sourceTree = "<group>"; };
+		A462B62F26ADB53C009668D2 /* SummerBookViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SummerBookViewController.storyboard; sourceTree = "<group>"; };
+		A462B63626ADCE14009668D2 /* SummerHotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHotelTableViewCell.swift; sourceTree = "<group>"; };
+		A462B63826ADCE25009668D2 /* SummerHotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SummerHotelTableViewCell.xib; sourceTree = "<group>"; };
+		A462B63C26ADD38C009668D2 /* SummerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerData.swift; sourceTree = "<group>"; };
+		A462B63F26ADEE1E009668D2 /* SummerHotelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHotelCollectionViewCell.swift; sourceTree = "<group>"; };
+		A462B64326AE22C1009668D2 /* SpringData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringData.swift; sourceTree = "<group>"; };
+		A462B64826AE29CD009668D2 /* SpringBookViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpringBookViewController.storyboard; sourceTree = "<group>"; };
+		A462B64A26AE2B0D009668D2 /* SpringBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringBookViewController.swift; sourceTree = "<group>"; };
+		A462B64F26AEAA03009668D2 /* SVGImgProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGImgProcessor.swift; sourceTree = "<group>"; };
+		A46E28012691C54700ACC653 /* SpringHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringHotelViewController.swift; sourceTree = "<group>"; };
+		A46E28032691C56000ACC653 /* SpringHotelViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpringHotelViewController.storyboard; sourceTree = "<group>"; };
+		A46E28052691C59600ACC653 /* SummerHotelViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SummerHotelViewController.storyboard; sourceTree = "<group>"; };
+		A46E28082691C5DC00ACC653 /* SummerHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHotelViewController.swift; sourceTree = "<group>"; };
+		A46E280A2691C7B900ACC653 /* AutmunHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutmunHotelViewController.swift; sourceTree = "<group>"; };
+		A46E280C2691C90700ACC653 /* AutmunHotelViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutmunHotelViewController.storyboard; sourceTree = "<group>"; };
+		A46E280E2691CB2A00ACC653 /* WinterHotelViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WinterHotelViewController.storyboard; sourceTree = "<group>"; };
+		A46E28102691CB4100ACC653 /* WinterHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterHotelViewController.swift; sourceTree = "<group>"; };
+		A46F592926AEDF7600A32573 /* SpringHotelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringHotelCollectionViewCell.swift; sourceTree = "<group>"; };
+		A46F593126B06BCE00A32573 /* AutmunHotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutmunHotelTableViewCell.swift; sourceTree = "<group>"; };
+		A46F593226B06BCE00A32573 /* AutmunHotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutmunHotelTableViewCell.xib; sourceTree = "<group>"; };
+		A46F593526B0718400A32573 /* AutmunData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutmunData.swift; sourceTree = "<group>"; };
+		A46F593826B1993C00A32573 /* AutmunBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutmunBookViewController.swift; sourceTree = "<group>"; };
+		A46F593A26B1994C00A32573 /* AutmunBookViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutmunBookViewController.storyboard; sourceTree = "<group>"; };
+		A46F593D26B19FA400A32573 /* AutmunHotelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutmunHotelCollectionViewCell.swift; sourceTree = "<group>"; };
+		A46F594226B1B29A00A32573 /* WinterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterData.swift; sourceTree = "<group>"; };
+		A46F594C26B1D01700A32573 /* WinterHotelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterHotelCollectionViewCell.swift; sourceTree = "<group>"; };
+		A46F594E26B1DCE100A32573 /* WinterBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterBookViewController.swift; sourceTree = "<group>"; };
+		A46F595026B1DCF100A32573 /* WinterBookViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WinterBookViewController.storyboard; sourceTree = "<group>"; };
+		A46F595326B2438200A32573 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		A46F595526B292BD00A32573 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A4714F6426765BDF0004C0A8 /* HotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
+		A4714F69267661DD0004C0A8 /* TaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxViewController.swift; sourceTree = "<group>"; };
+		A4714F6B267661E80004C0A8 /* TaxViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaxViewController.storyboard; sourceTree = "<group>"; };
+		A4714F6D267662010004C0A8 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		A4714F6F2676621F0004C0A8 /* WeatherViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeatherViewController.storyboard; sourceTree = "<group>"; };
+		A4714F762676625D0004C0A8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A4714F78267662720004C0A8 /* CameraViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraViewController.storyboard; sourceTree = "<group>"; };
+		A4714F7A267662930004C0A8 /* MemoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesViewController.swift; sourceTree = "<group>"; };
+		A4714F7C267662B70004C0A8 /* MemoriesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoriesViewController.storyboard; sourceTree = "<group>"; };
+		A4714F7E267662CC0004C0A8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A4714F80267662D90004C0A8 /* SettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
+		A4714F82267662F50004C0A8 /* SignOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		A4714F84267663010004C0A8 /* SignOutViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignOutViewController.storyboard; sourceTree = "<group>"; };
+		A484F7E826A60AEF0037911A /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		A4C29D5E269F2A7C0014D5FE /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		A4C29D60269F2EE50014D5FE /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		A4C29D62269F2F160014D5FE /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		A4D1E54B2673B2E300EE0AA1 /* autmun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = autmun.gif; sourceTree = "<group>"; };
+		A4D1E54E2673C54100EE0AA1 /* winter.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = winter.gif; sourceTree = "<group>"; };
+		A4D1E5502673C54F00EE0AA1 /* summer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = summer.gif; sourceTree = "<group>"; };
+		A4D1E5522673C55B00EE0AA1 /* spring.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spring.gif; sourceTree = "<group>"; };
+		A4E0ECF62674FD3F00D940F1 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		A4E417E026761694004CBA5C /* LikeAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimator.swift; sourceTree = "<group>"; };
+		A4E80982269B1423007F185A /* HotelViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HotelViewController.storyboard; sourceTree = "<group>"; };
+		A4EC62EF266D26D700F92E21 /* 4Season.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4Season.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EC62F2266D26D700F92E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4EC62F4266D26D700F92E21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4EC62F6266D26D700F92E21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4EC62F9266D26D700F92E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4EC62FB266D26DA00F92E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4EC62FE266D26DA00F92E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4EC6300266D26DA00F92E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EC6305266D26DA00F92E21 /* 4SeasonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4SeasonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EC6309266D26DA00F92E21 /* _SeasonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SeasonTests.swift; sourceTree = "<group>"; };
+		A4EC630B266D26DA00F92E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EC6310266D26DA00F92E21 /* 4SeasonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4SeasonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EC6314266D26DA00F92E21 /* _SeasonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SeasonUITests.swift; sourceTree = "<group>"; };
+		A4EC6316266D26DA00F92E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EC6325266D326B00F92E21 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4EC6327266D328500F92E21 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		A4EC6329266D32C100F92E21 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A4EC632B266D32DE00F92E21 /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
+		A4EC632D266D330200F92E21 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A4EC6333266D360000F92E21 /* LogInViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogInViewController.storyboard; sourceTree = "<group>"; };
+		A4EC6337266D569D00F92E21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACCAAF9EBF3654CA926D2177 /* Pods-4SeasonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4SeasonTests.release.xcconfig"; path = "Target Support Files/Pods-4SeasonTests/Pods-4SeasonTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7AC572026E4F92600CA39A8 /* launchScreenJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launchScreenJson.json; sourceTree = "<group>"; };
+		B7AC572326E4FCAB00CA39A8 /* LogInExtenssions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInExtenssions.swift; sourceTree = "<group>"; };
+		B7AC572626E5057800CA39A8 /* LaunchScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaunchScreenExtension.swift; path = "4Season/View Controllers/Login/Login + Extenssions/LaunchScreenExtension.swift"; sourceTree = SOURCE_ROOT; };
+		B7AC572926E5066F00CA39A8 /* SignUpExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpExtension.swift; sourceTree = "<group>"; };
+		B7AC572C26E5098B00CA39A8 /* SpringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpringExtension.swift; path = "4Season/View Controllers/Sign Up/Sign Up + Etension/SpringExtension.swift"; sourceTree = SOURCE_ROOT; };
+		B7AC572F26E50AAA00CA39A8 /* SummerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerExtension.swift; sourceTree = "<group>"; };
+		B7AC573126E50C2C00CA39A8 /* WinterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WinterExtension.swift; path = "../New Group/WinterExtension.swift"; sourceTree = "<group>"; };
+		B7AC573526E5122F00CA39A8 /* FlyTicketDAata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyTicketDAata.swift; sourceTree = "<group>"; };
+		B7AC573826E51AD700CA39A8 /* travelAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = travelAnimation.json; sourceTree = "<group>"; };
+		DCEBAE8AEA27D25A20A56217 /* Pods_4SeasonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4SeasonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAF6A2C1360997178462533 /* Pods_4Season.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4Season.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4EC62EC266D26D700F92E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46F592F26AF0B6800A32573 /* SVGKitSwift in Frameworks */,
+				A46F592D26AF0B6800A32573 /* SVGKit in Frameworks */,
+				A44728DD2674A34A005C3B99 /* Kingfisher in Frameworks */,
+				07C974E10F9712741ACF00EE /* Pods_4Season.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EC6302266D26DA00F92E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E51C2ABB17BFCD4B65748FC /* Pods_4SeasonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EC630D266D26DA00F92E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B4094EA482ACEBBC341D32 /* Pods_4Season_4SeasonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160C09AC9CDCBA42FFFB7F99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF6A2C1360997178462533 /* Pods_4Season.framework */,
+				9EF9B500E9A99B26F9630CD9 /* Pods_4Season_4SeasonUITests.framework */,
+				DCEBAE8AEA27D25A20A56217 /* Pods_4SeasonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23B1515C36805176C5A48FC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB60A2573489787790CBCB6 /* Pods-4Season.debug.xcconfig */,
+				6BE72C7002A899062E2F99A7 /* Pods-4Season.release.xcconfig */,
+				74BDC5405425A9553DDB947A /* Pods-4Season-4SeasonUITests.debug.xcconfig */,
+				94A0777CA039AF5B914E23F1 /* Pods-4Season-4SeasonUITests.release.xcconfig */,
+				5507C236EED792B2FEB48E54 /* Pods-4SeasonTests.debug.xcconfig */,
+				ACCAAF9EBF3654CA926D2177 /* Pods-4SeasonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A40DF96126726DB900AE7557 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B1226AB509E00554849 /* UITableViewCell+Extension */,
+				A4301B0F26AB505500554849 /* UITableView+Extensions */,
+				A426121426A60A3A0035B241 /* UIImageView + Extensions */,
+				A40DF96226726DC600AE7557 /* UIVIewController+Extensions */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A40DF96226726DC600AE7557 /* UIVIewController+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A40DF96D26735DC600AE7557 /* gift+Extensions.swift */,
+				A40DF96326726DEB00AE7557 /* UIVIewController+Extensions.swift */,
+			);
+			path = "UIVIewController+Extensions";
+			sourceTree = "<group>";
+		};
+		A40DF9652672B39100AE7557 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A484F7F626A60DC20037911A /* Menu Helper */,
+				A484F7F726A60DF10037911A /* Slide Menu Options */,
+				A40DF9672672B55700AE7557 /* MenuViewController.swift */,
+				A40DF96F2673903A00AE7557 /* MenuViewController.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A40DF97626739B0300AE7557 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				A40DF97726739B2E00AE7557 /* AboutViewController.swift */,
+				A40DF97926739D5E00AE7557 /* AboutViewController.storyboard */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		A426120026A42BA20035B241 /* TaxViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A426120126A42C360035B241 /* TaxTableViewCell.swift */,
+				A426120226A42C360035B241 /* TaxTableViewCell.xib */,
+			);
+			path = TaxViewCell;
+			sourceTree = "<group>";
+		};
+		A426120526A446930035B241 /* TaxCallViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A426120826A5A4F60035B241 /* TaxCallViewController.swift */,
+				A426120A26A5A64B0035B241 /* TaxCallViewController.storyboard */,
+			);
+			path = TaxCallViewController;
+			sourceTree = "<group>";
+		};
+		A426120C26A5D3BC0035B241 /* springtableviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				A426120D26A5D4170035B241 /* SpringHotelTableViewCell.swift */,
+				A426120F26A5D4D70035B241 /* SpringHotelTableViewCell.xib */,
+			);
+			path = springtableviewcell;
+			sourceTree = "<group>";
+		};
+		A426121126A609BB0035B241 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A46F595226B2433000A32573 /* OnBoarding */,
+				A484F7F126A60C170037911A /* Launch Screen */,
+				A484F7F226A60C940037911A /* Sign Up */,
+				A484F7F326A60CCC0037911A /* Login */,
+				A4EC6324266D324900F92E21 /* Home */,
+				A40DF9652672B39100AE7557 /* Menu */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A426121226A609CA0035B241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC6337266D569D00F92E21 /* GoogleService-Info.plist */,
+				A4EC6300266D26DA00F92E21 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A426121326A609F60035B241 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A484F7F026A60BE10037911A /* Images */,
+				A484F7EB26A60B810037911A /* HomeScreen Gifs */,
+				A484F7EA26A60B580037911A /* Lottie Animation */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A426121426A60A3A0035B241 /* UIImageView + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A484F7E826A60AEF0037911A /* UIImageViewExtensions.swift */,
+			);
+			path = "UIImageView + Extensions";
+			sourceTree = "<group>";
+		};
+		A4263D0726AAE4C400FFF4FC /* WinterTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A4263D0826AAE4F000FFF4FC /* WinterTableViewCell.swift */,
+				A4263D0926AAE4F000FFF4FC /* WinterTableViewCell.xib */,
+			);
+			path = WinterTableViewCell;
+			sourceTree = "<group>";
+		};
+		A4301B0F26AB505500554849 /* UITableView+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B1026AB506500554849 /* UITableView+Extensions.swift */,
+			);
+			path = "UITableView+Extensions";
+			sourceTree = "<group>";
+		};
+		A4301B1226AB509E00554849 /* UITableViewCell+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B1326AB50AF00554849 /* UITableViewCell+Extension.swift */,
+			);
+			path = "UITableViewCell+Extension";
+			sourceTree = "<group>";
+		};
+		A4301B1626AB53D800554849 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B1726AB541B00554849 /* WintersManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A4301B1926AB556600554849 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B1B26AB558F00554849 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A4301B1D26AB5A3B00554849 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B1E26AB5C5A00554849 /* Winter.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A4301B2726ABF3C600554849 /* FlyTicket */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B3426AC706800554849 /* BookTicketFlyViewController */,
+				A4301B2C26AC002000554849 /* FlyTicketCell */,
+				B7AC573426E5118300CA39A8 /* Model */,
+				A4301B2826ABF40F00554849 /* FlyTicketViewController.swift */,
+				A4301B2A26ABF42900554849 /* FlyTicketViewController.storyboard */,
+			);
+			path = FlyTicket;
+			sourceTree = "<group>";
+		};
+		A4301B2C26AC002000554849 /* FlyTicketCell */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B2E26AC16CD00554849 /* FlyTicketTableViewCell.swift */,
+				A4301B2F26AC16CD00554849 /* FlyTicketTableViewCell.xib */,
+			);
+			path = FlyTicketCell;
+			sourceTree = "<group>";
+		};
+		A4301B3426AC706800554849 /* BookTicketFlyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B3726AC70E700554849 /* BookTicketFlyViewController.storyboard */,
+				A4301B3926AC79C700554849 /* BookTicketFlyViewController.swift */,
+			);
+			path = BookTicketFlyViewController;
+			sourceTree = "<group>";
+		};
+		A44728B82673E84D005C3B99 /* Home Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				A484F7F426A60D5E0037911A /* Home Helper */,
+				A44728B92673E860005C3B99 /* Spring */,
+				A44728BE2673F435005C3B99 /* Summer */,
+				A44728BF2673F451005C3B99 /* Autmun */,
+				A44728C02673F46A005C3B99 /* Winter */,
+			);
+			path = "Home Seasons";
+			sourceTree = "<group>";
+		};
+		A44728B92673E860005C3B99 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572B26E5097B00CA39A8 /* Spring + Extension */,
+				A44728CF267405B3005C3B99 /* springcell */,
+				A44728BA2673E8FE005C3B99 /* SpringViewController.swift */,
+				A44728BC2673E90D005C3B99 /* SpringViewController.storyboard */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		A44728BE2673F435005C3B99 /* Summer */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572E26E50A9800CA39A8 /* Summer + Extension */,
+				A44728D226740609005C3B99 /* summercell */,
+				A44728C12673FE58005C3B99 /* SummerViewController.swift */,
+				A44728C32673FE77005C3B99 /* SummerViewController.storyboard */,
+			);
+			path = Summer;
+			sourceTree = "<group>";
+		};
+		A44728BF2673F451005C3B99 /* Autmun */ = {
+			isa = PBXGroup;
+			children = (
+				A44728D526740709005C3B99 /* autmuncell */,
+				A44728C5267401DF005C3B99 /* AutmunViewController.swift */,
+				A44728C926740202005C3B99 /* AutmunViewController.storyboard */,
+			);
+			path = Autmun;
+			sourceTree = "<group>";
+		};
+		A44728C02673F46A005C3B99 /* Winter */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC573326E50C3100CA39A8 /* Winter+ Extension */,
+				A44728D826740808005C3B99 /* wintercell */,
+				A44728CB2674027C005C3B99 /* WinterViewController.swift */,
+				A44728CD26740291005C3B99 /* WinterViewController.storyboard */,
+			);
+			path = Winter;
+			sourceTree = "<group>";
+		};
+		A44728CF267405B3005C3B99 /* springcell */ = {
+			isa = PBXGroup;
+			children = (
+				A44728D0267405F1005C3B99 /* SpringCollectionViewCell.swift */,
+			);
+			path = springcell;
+			sourceTree = "<group>";
+		};
+		A44728D226740609005C3B99 /* summercell */ = {
+			isa = PBXGroup;
+			children = (
+				A44728D32674062B005C3B99 /* SummerCollectionViewCell.swift */,
+			);
+			path = summercell;
+			sourceTree = "<group>";
+		};
+		A44728D526740709005C3B99 /* autmuncell */ = {
+			isa = PBXGroup;
+			children = (
+				A44728D626740737005C3B99 /* AutmunCollectionViewCell.swift */,
+			);
+			path = autmuncell;
+			sourceTree = "<group>";
+		};
+		A44728D826740808005C3B99 /* wintercell */ = {
+			isa = PBXGroup;
+			children = (
+				A44728D92674088A005C3B99 /* WinterCollectionViewCell.swift */,
+			);
+			path = wintercell;
+			sourceTree = "<group>";
+		};
+		A462B62C26ADB4B8009668D2 /* SummerBookViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A462B62D26ADB510009668D2 /* SummerBookViewController.swift */,
+				A462B62F26ADB53C009668D2 /* SummerBookViewController.storyboard */,
+			);
+			path = SummerBookViewController;
+			sourceTree = "<group>";
+		};
+		A462B63126ADC228009668D2 /* SummerHotelTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A462B63626ADCE14009668D2 /* SummerHotelTableViewCell.swift */,
+				A462B63826ADCE25009668D2 /* SummerHotelTableViewCell.xib */,
+			);
+			path = SummerHotelTableViewCell;
+			sourceTree = "<group>";
+		};
+		A462B63E26ADECC7009668D2 /* SummerCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A462B63F26ADEE1E009668D2 /* SummerHotelCollectionViewCell.swift */,
+				A462B62C26ADB4B8009668D2 /* SummerBookViewController */,
+				A462B63126ADC228009668D2 /* SummerHotelTableViewCell */,
+			);
+			path = SummerCollectionCell;
+			sourceTree = "<group>";
+		};
+		A462B64526AE279B009668D2 /* SpringBookViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A462B64826AE29CD009668D2 /* SpringBookViewController.storyboard */,
+				A462B64A26AE2B0D009668D2 /* SpringBookViewController.swift */,
+			);
+			path = SpringBookViewController;
+			sourceTree = "<group>";
+		};
+		A462B64E26AEA9D1009668D2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A462B64F26AEAA03009668D2 /* SVGImgProcessor.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A46E27FD2691C35900ACC653 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				A46F592826AEDEBB00A32573 /* SpringCollectionCell */,
+				A462B64526AE279B009668D2 /* SpringBookViewController */,
+				A426120C26A5D3BC0035B241 /* springtableviewcell */,
+				A46E28012691C54700ACC653 /* SpringHotelViewController.swift */,
+				A46E28032691C56000ACC653 /* SpringHotelViewController.storyboard */,
+				A462B64326AE22C1009668D2 /* SpringData.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		A46E27FE2691C36A00ACC653 /* Summer */ = {
+			isa = PBXGroup;
+			children = (
+				A462B63E26ADECC7009668D2 /* SummerCollectionCell */,
+				A46E28052691C59600ACC653 /* SummerHotelViewController.storyboard */,
+				A46E28082691C5DC00ACC653 /* SummerHotelViewController.swift */,
+				A462B63C26ADD38C009668D2 /* SummerData.swift */,
+			);
+			path = Summer;
+			sourceTree = "<group>";
+		};
+		A46E27FF2691C38400ACC653 /* Autmun */ = {
+			isa = PBXGroup;
+			children = (
+				A46F593026B06B7400A32573 /* AutmunHotelTableViewCell */,
+				A46F593C26B19E4500A32573 /* AutmunCollectionCell */,
+				A46F593726B1965500A32573 /* AutmunBookViewController */,
+				A46E280A2691C7B900ACC653 /* AutmunHotelViewController.swift */,
+				A46E280C2691C90700ACC653 /* AutmunHotelViewController.storyboard */,
+				A46F593526B0718400A32573 /* AutmunData.swift */,
+			);
+			path = Autmun;
+			sourceTree = "<group>";
+		};
+		A46E28002691C39F00ACC653 /* Winter */ = {
+			isa = PBXGroup;
+			children = (
+				A46F594026B1B18700A32573 /* WinterCollectionCell */,
+				A46F593F26B1B15300A32573 /* WinterBookViewController */,
+				A4263D0726AAE4C400FFF4FC /* WinterTableViewCell */,
+				A46E280E2691CB2A00ACC653 /* WinterHotelViewController.storyboard */,
+				A46E28102691CB4100ACC653 /* WinterHotelViewController.swift */,
+				A46F594226B1B29A00A32573 /* WinterData.swift */,
+			);
+			path = Winter;
+			sourceTree = "<group>";
+		};
+		A46F592826AEDEBB00A32573 /* SpringCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A46F592926AEDF7600A32573 /* SpringHotelCollectionViewCell.swift */,
+			);
+			path = SpringCollectionCell;
+			sourceTree = "<group>";
+		};
+		A46F593026B06B7400A32573 /* AutmunHotelTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A46F593126B06BCE00A32573 /* AutmunHotelTableViewCell.swift */,
+				A46F593226B06BCE00A32573 /* AutmunHotelTableViewCell.xib */,
+			);
+			path = AutmunHotelTableViewCell;
+			sourceTree = "<group>";
+		};
+		A46F593726B1965500A32573 /* AutmunBookViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A46F593826B1993C00A32573 /* AutmunBookViewController.swift */,
+				A46F593A26B1994C00A32573 /* AutmunBookViewController.storyboard */,
+			);
+			path = AutmunBookViewController;
+			sourceTree = "<group>";
+		};
+		A46F593C26B19E4500A32573 /* AutmunCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A46F593D26B19FA400A32573 /* AutmunHotelCollectionViewCell.swift */,
+			);
+			path = AutmunCollectionCell;
+			sourceTree = "<group>";
+		};
+		A46F593F26B1B15300A32573 /* WinterBookViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A46F594E26B1DCE100A32573 /* WinterBookViewController.swift */,
+				A46F595026B1DCF100A32573 /* WinterBookViewController.storyboard */,
+			);
+			path = WinterBookViewController;
+			sourceTree = "<group>";
+		};
+		A46F594026B1B18700A32573 /* WinterCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A46F594C26B1D01700A32573 /* WinterHotelCollectionViewCell.swift */,
+			);
+			path = WinterCollectionCell;
+			sourceTree = "<group>";
+		};
+		A46F595226B2433000A32573 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				A46F595326B2438200A32573 /* OnboardingViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		A46F595626B292BD00A32573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46F596F26B292BE00A32573 /* absl.framework */,
+				A46F597126B292BE00A32573 /* openssl_grpc.framework */,
+				A46F597326B292BE00A32573 /* FirebaseAuth.framework */,
+				A46F597526B292BE00A32573 /* FirebaseCore.framework */,
+				A46F597726B292BE00A32573 /* FirebaseCoreDiagnostics.framework */,
+				A46F597926B292BE00A32573 /* FirebaseFirestore.framework */,
+				A46F597B26B292BE00A32573 /* FirebaseInstallations.framework */,
+				A46F597D26B292BE00A32573 /* GoogleDataTransport.framework */,
+				A46F597F26B292BE00A32573 /* GoogleUtilities.framework */,
+				A46F598126B292BE00A32573 /* grpcpp.framework */,
+				A46F598326B292BE00A32573 /* gRPCCertificates-Cpp.bundle */,
+				A46F598526B292BE00A32573 /* grpc.framework */,
+				A46F598726B292BE00A32573 /* GTMSessionFetcher.framework */,
+				A46F598926B292BE00A32573 /* leveldb.framework */,
+				B7AC571F26E4F90900CA39A8 /* Lottie.framework */,
+				A46F598B26B292BE00A32573 /* nanopb.framework */,
+				A46F598D26B292BE00A32573 /* Pods_4Season.framework */,
+				A46F598F26B292BE00A32573 /* Pods_4Season_4SeasonUITests.framework */,
+				A46F599126B292BE00A32573 /* Pods_4SeasonTests.framework */,
+				A46F599326B292BE00A32573 /* FBLPromises.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4714F5D267657640004C0A8 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				A46E27FD2691C35900ACC653 /* Spring */,
+				A46E27FE2691C36A00ACC653 /* Summer */,
+				A46E27FF2691C38400ACC653 /* Autmun */,
+				A46E28002691C39F00ACC653 /* Winter */,
+				A4714F6426765BDF0004C0A8 /* HotelViewController.swift */,
+				A4E80982269B1423007F185A /* HotelViewController.storyboard */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		A4714F5E267659800004C0A8 /* Tax */ = {
+			isa = PBXGroup;
+			children = (
+				A426120526A446930035B241 /* TaxCallViewController */,
+				A426120026A42BA20035B241 /* TaxViewCell */,
+				A4714F69267661DD0004C0A8 /* TaxViewController.swift */,
+				A4714F6B267661E80004C0A8 /* TaxViewController.storyboard */,
+				A426120626A462A60035B241 /* TaxData.swift */,
+			);
+			path = Tax;
+			sourceTree = "<group>";
+		};
+		A4714F5F267659A00004C0A8 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				A4C29D5D269F2A400014D5FE /* Model */,
+				A4714F6D267662010004C0A8 /* WeatherViewController.swift */,
+				A4714F6F2676621F0004C0A8 /* WeatherViewController.storyboard */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		A4714F61267659EC0004C0A8 /* Memories */ = {
+			isa = PBXGroup;
+			children = (
+				A4714F7A267662930004C0A8 /* MemoriesViewController.swift */,
+				A4714F7C267662B70004C0A8 /* MemoriesViewController.storyboard */,
+			);
+			path = Memories;
+			sourceTree = "<group>";
+		};
+		A4714F6226765A4A0004C0A8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A4714F7E267662CC0004C0A8 /* SettingsViewController.swift */,
+				A4714F80267662D90004C0A8 /* SettingsViewController.storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A4714F6326765B020004C0A8 /* Signout */ = {
+			isa = PBXGroup;
+			children = (
+				A4714F82267662F50004C0A8 /* SignOutViewController.swift */,
+				A4714F84267663010004C0A8 /* SignOutViewController.storyboard */,
+			);
+			path = Signout;
+			sourceTree = "<group>";
+		};
+		A4714F6626765CA60004C0A8 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A4714F762676625D0004C0A8 /* CameraViewController.swift */,
+				A4714F78267662720004C0A8 /* CameraViewController.storyboard */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A484F7EA26A60B580037911A /* Lottie Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lottie Animation";
+			sourceTree = "<group>";
+		};
+		A484F7EB26A60B810037911A /* HomeScreen Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				A484F7EF26A60BB90037911A /* Winter */,
+				A484F7EE26A60BB20037911A /* Spring */,
+				A484F7ED26A60BAC0037911A /* Summer */,
+				A484F7EC26A60BA10037911A /* Autumn */,
+			);
+			path = "HomeScreen Gifs";
+			sourceTree = "<group>";
+		};
+		A484F7EC26A60BA10037911A /* Autumn */ = {
+			isa = PBXGroup;
+			children = (
+				A4D1E54B2673B2E300EE0AA1 /* autmun.gif */,
+			);
+			path = Autumn;
+			sourceTree = "<group>";
+		};
+		A484F7ED26A60BAC0037911A /* Summer */ = {
+			isa = PBXGroup;
+			children = (
+				A4D1E5502673C54F00EE0AA1 /* summer.gif */,
+			);
+			path = Summer;
+			sourceTree = "<group>";
+		};
+		A484F7EE26A60BB20037911A /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				A4D1E5522673C55B00EE0AA1 /* spring.gif */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		A484F7EF26A60BB90037911A /* Winter */ = {
+			isa = PBXGroup;
+			children = (
+				A4D1E54E2673C54100EE0AA1 /* winter.gif */,
+			);
+			path = Winter;
+			sourceTree = "<group>";
+		};
+		A484F7F026A60BE10037911A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC62FB266D26DA00F92E21 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A484F7F126A60C170037911A /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC62FD266D26DA00F92E21 /* LaunchScreen.storyboard */,
+				A4EC6331266D333000F92E21 /* Launch Screen Storyboard + Controller */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		A484F7F226A60C940037911A /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572826E5065900CA39A8 /* Sign Up + Etension */,
+				A4EC632B266D32DE00F92E21 /* SignUpViewController.storyboard */,
+				A4EC6329266D32C100F92E21 /* SignUpViewController.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		A484F7F326A60CCC0037911A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC570626E4F90900CA39A8 /* Launch screen animation Json */,
+				B7AC572226E4FC9100CA39A8 /* Login + Extenssions */,
+				A4EC6333266D360000F92E21 /* LogInViewController.storyboard */,
+				A4EC632D266D330200F92E21 /* LogInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A484F7F426A60D5E0037911A /* Home Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A484F7F526A60D660037911A /* Like Animator */,
+			);
+			path = "Home Helper";
+			sourceTree = "<group>";
+		};
+		A484F7F526A60D660037911A /* Like Animator */ = {
+			isa = PBXGroup;
+			children = (
+				A4E417E026761694004CBA5C /* LikeAnimator.swift */,
+			);
+			path = "Like Animator";
+			sourceTree = "<group>";
+		};
+		A484F7F626A60DC20037911A /* Menu Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A4E0ECF52674FD0A00D940F1 /* Slidein Transition */,
+			);
+			path = "Menu Helper";
+			sourceTree = "<group>";
+		};
+		A484F7F726A60DF10037911A /* Slide Menu Options */ = {
+			isa = PBXGroup;
+			children = (
+				A4301B2726ABF3C600554849 /* FlyTicket */,
+				A4714F6326765B020004C0A8 /* Signout */,
+				A4714F6226765A4A0004C0A8 /* Settings */,
+				A4714F61267659EC0004C0A8 /* Memories */,
+				A4714F6626765CA60004C0A8 /* Camera */,
+				A4714F5F267659A00004C0A8 /* Weather */,
+				A4714F5E267659800004C0A8 /* Tax */,
+				A4714F5D267657640004C0A8 /* Hotel */,
+				A40DF97626739B0300AE7557 /* About */,
+			);
+			path = "Slide Menu Options";
+			sourceTree = "<group>";
+		};
+		A4C29D5D269F2A400014D5FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4C29D5E269F2A7C0014D5FE /* WeatherManager.swift */,
+				A4C29D60269F2EE50014D5FE /* WeatherData.swift */,
+				A4C29D62269F2F160014D5FE /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4E0ECF52674FD0A00D940F1 /* Slidein Transition */ = {
+			isa = PBXGroup;
+			children = (
+				A4E0ECF62674FD3F00D940F1 /* SlideInTransition.swift */,
+			);
+			path = "Slidein Transition";
+			sourceTree = "<group>";
+		};
+		A4EC62E6266D26D700F92E21 = {
+			isa = PBXGroup;
+			children = (
+				A4EC62F1266D26D700F92E21 /* 4Season */,
+				A4EC6308266D26DA00F92E21 /* 4SeasonTests */,
+				A4EC6313266D26DA00F92E21 /* 4SeasonUITests */,
+				A4EC62F0266D26D700F92E21 /* Products */,
+				23B1515C36805176C5A48FC7 /* Pods */,
+				160C09AC9CDCBA42FFFB7F99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4EC62F0266D26D700F92E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC62EF266D26D700F92E21 /* 4Season.app */,
+				A4EC6305266D26DA00F92E21 /* 4SeasonTests.xctest */,
+				A4EC6310266D26DA00F92E21 /* 4SeasonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4EC62F1266D26D700F92E21 /* 4Season */ = {
+			isa = PBXGroup;
+			children = (
+				A462B64E26AEA9D1009668D2 /* Utilities */,
+				A4301B1D26AB5A3B00554849 /* Domain */,
+				A4301B1926AB556600554849 /* Network */,
+				A4301B1626AB53D800554849 /* API */,
+				A4EC6332266D336100F92E21 /* App */,
+				A426121126A609BB0035B241 /* View Controllers */,
+				A426121326A609F60035B241 /* Resources */,
+				A426121226A609CA0035B241 /* Supporting Files */,
+				A40DF96126726DB900AE7557 /* Extensions */,
+			);
+			path = 4Season;
+			sourceTree = "<group>";
+		};
+		A4EC6308266D26DA00F92E21 /* 4SeasonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A46F595526B292BD00A32573 /* Pods.xcodeproj */,
+				A4EC6309266D26DA00F92E21 /* _SeasonTests.swift */,
+				A4EC630B266D26DA00F92E21 /* Info.plist */,
+			);
+			path = 4SeasonTests;
+			sourceTree = "<group>";
+		};
+		A4EC6313266D26DA00F92E21 /* 4SeasonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC6314266D26DA00F92E21 /* _SeasonUITests.swift */,
+				A4EC6316266D26DA00F92E21 /* Info.plist */,
+			);
+			path = 4SeasonUITests;
+			sourceTree = "<group>";
+		};
+		A4EC6324266D324900F92E21 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A44728B82673E84D005C3B99 /* Home Seasons */,
+				A4EC6325266D326B00F92E21 /* HomeViewController.swift */,
+				A4EC6327266D328500F92E21 /* HomeViewController.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A4EC6331266D333000F92E21 /* Launch Screen Storyboard + Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC573726E51AB200CA39A8 /* Animation */,
+				B7AC572526E5056400CA39A8 /* LaunchSceen + Extension */,
+				A4EC62F8266D26D700F92E21 /* Main.storyboard */,
+				A4EC62F6266D26D700F92E21 /* ViewController.swift */,
+			);
+			path = "Launch Screen Storyboard + Controller";
+			sourceTree = "<group>";
+		};
+		A4EC6332266D336100F92E21 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC62F4266D26D700F92E21 /* SceneDelegate.swift */,
+				A4EC62F2266D26D700F92E21 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B7AC570626E4F90900CA39A8 /* Launch screen animation Json */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572026E4F92600CA39A8 /* launchScreenJson.json */,
+			);
+			path = "Launch screen animation Json";
+			sourceTree = "<group>";
+		};
+		B7AC572226E4FC9100CA39A8 /* Login + Extenssions */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572326E4FCAB00CA39A8 /* LogInExtenssions.swift */,
+			);
+			path = "Login + Extenssions";
+			sourceTree = "<group>";
+		};
+		B7AC572526E5056400CA39A8 /* LaunchSceen + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572626E5057800CA39A8 /* LaunchScreenExtension.swift */,
+			);
+			path = "LaunchSceen + Extension";
+			sourceTree = "<group>";
+		};
+		B7AC572826E5065900CA39A8 /* Sign Up + Etension */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572926E5066F00CA39A8 /* SignUpExtension.swift */,
+			);
+			path = "Sign Up + Etension";
+			sourceTree = "<group>";
+		};
+		B7AC572B26E5097B00CA39A8 /* Spring + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572C26E5098B00CA39A8 /* SpringExtension.swift */,
+			);
+			path = "Spring + Extension";
+			sourceTree = "<group>";
+		};
+		B7AC572E26E50A9800CA39A8 /* Summer + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC572F26E50AAA00CA39A8 /* SummerExtension.swift */,
+			);
+			path = "Summer + Extension";
+			sourceTree = "<group>";
+		};
+		B7AC573326E50C3100CA39A8 /* Winter+ Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC573126E50C2C00CA39A8 /* WinterExtension.swift */,
+			);
+			path = "Winter+ Extension";
+			sourceTree = "<group>";
+		};
+		B7AC573426E5118300CA39A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC573526E5122F00CA39A8 /* FlyTicketDAata.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7AC573726E51AB200CA39A8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC573826E51AD700CA39A8 /* travelAnimation.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4EC62EE266D26D700F92E21 /* 4Season */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EC6319266D26DA00F92E21 /* Build configuration list for PBXNativeTarget "4Season" */;
+			buildPhases = (
+				77BA0BD5698A6AE084CC33D5 /* [CP] Check Pods Manifest.lock */,
+				A4EC62EB266D26D700F92E21 /* Sources */,
+				A4EC62EC266D26D700F92E21 /* Frameworks */,
+				A4EC62ED266D26D700F92E21 /* Resources */,
+				36D1CD3E2F617E38EE51AF74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 4Season;
+			packageProductDependencies = (
+				A44728DC2674A34A005C3B99 /* Kingfisher */,
+				A46F592C26AF0B6800A32573 /* SVGKit */,
+				A46F592E26AF0B6800A32573 /* SVGKitSwift */,
+			);
+			productName = 4Season;
+			productReference = A4EC62EF266D26D700F92E21 /* 4Season.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4EC6304266D26DA00F92E21 /* 4SeasonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EC631C266D26DA00F92E21 /* Build configuration list for PBXNativeTarget "4SeasonTests" */;
+			buildPhases = (
+				A432165F06DB5E551EF47E87 /* [CP] Check Pods Manifest.lock */,
+				A4EC6301266D26DA00F92E21 /* Sources */,
+				A4EC6302266D26DA00F92E21 /* Frameworks */,
+				A4EC6303266D26DA00F92E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EC6307266D26DA00F92E21 /* PBXTargetDependency */,
+			);
+			name = 4SeasonTests;
+			productName = 4SeasonTests;
+			productReference = A4EC6305266D26DA00F92E21 /* 4SeasonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4EC630F266D26DA00F92E21 /* 4SeasonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EC631F266D26DA00F92E21 /* Build configuration list for PBXNativeTarget "4SeasonUITests" */;
+			buildPhases = (
+				17C2AFA81DE0DB102A5A6179 /* [CP] Check Pods Manifest.lock */,
+				A4EC630C266D26DA00F92E21 /* Sources */,
+				A4EC630D266D26DA00F92E21 /* Frameworks */,
+				A4EC630E266D26DA00F92E21 /* Resources */,
+				E69844EED36594941785351A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EC6312266D26DA00F92E21 /* PBXTargetDependency */,
+			);
+			name = 4SeasonUITests;
+			productName = 4SeasonUITests;
+			productReference = A4EC6310266D26DA00F92E21 /* 4SeasonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4EC62E7266D26D700F92E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A4EC62EE266D26D700F92E21 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A4EC6304266D26DA00F92E21 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A4EC62EE266D26D700F92E21;
+					};
+					A4EC630F266D26DA00F92E21 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A4EC62EE266D26D700F92E21;
+					};
+				};
+			};
+			buildConfigurationList = A4EC62EA266D26D700F92E21 /* Build configuration list for PBXProject "4Season" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4EC62E6266D26D700F92E21;
+			packageReferences = (
+				A44728DB2674A34A005C3B99 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A462B64C26AEA5BB009668D2 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
+				A46F592B26AF0B6800A32573 /* XCRemoteSwiftPackageReference "SVGKit" */,
+			);
+			productRefGroup = A4EC62F0266D26D700F92E21 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A46F595626B292BD00A32573 /* Products */;
+					ProjectRef = A46F595526B292BD00A32573 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A4EC62EE266D26D700F92E21 /* 4Season */,
+				A4EC6304266D26DA00F92E21 /* 4SeasonTests */,
+				A4EC630F266D26DA00F92E21 /* 4SeasonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A46F596F26B292BE00A32573 /* absl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = absl.framework;
+			remoteRef = A46F596E26B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F597126B292BE00A32573 /* openssl_grpc.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = openssl_grpc.framework;
+			remoteRef = A46F597026B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F597326B292BE00A32573 /* FirebaseAuth.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseAuth.framework;
+			remoteRef = A46F597226B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F597526B292BE00A32573 /* FirebaseCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCore.framework;
+			remoteRef = A46F597426B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F597726B292BE00A32573 /* FirebaseCoreDiagnostics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCoreDiagnostics.framework;
+			remoteRef = A46F597626B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F597926B292BE00A32573 /* FirebaseFirestore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseFirestore.framework;
+			remoteRef = A46F597826B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F597B26B292BE00A32573 /* FirebaseInstallations.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseInstallations.framework;
+			remoteRef = A46F597A26B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F597D26B292BE00A32573 /* GoogleDataTransport.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleDataTransport.framework;
+			remoteRef = A46F597C26B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F597F26B292BE00A32573 /* GoogleUtilities.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleUtilities.framework;
+			remoteRef = A46F597E26B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F598126B292BE00A32573 /* grpcpp.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = grpcpp.framework;
+			remoteRef = A46F598026B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F598326B292BE00A32573 /* gRPCCertificates-Cpp.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "gRPCCertificates-Cpp.bundle";
+			remoteRef = A46F598226B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F598526B292BE00A32573 /* grpc.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = grpc.framework;
+			remoteRef = A46F598426B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F598726B292BE00A32573 /* GTMSessionFetcher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcher.framework;
+			remoteRef = A46F598626B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F598926B292BE00A32573 /* leveldb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = leveldb.framework;
+			remoteRef = A46F598826B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F598B26B292BE00A32573 /* nanopb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = nanopb.framework;
+			remoteRef = A46F598A26B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F598D26B292BE00A32573 /* Pods_4Season.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_4Season.framework;
+			remoteRef = A46F598C26B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F598F26B292BE00A32573 /* Pods_4Season_4SeasonUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_4Season_4SeasonUITests.framework;
+			remoteRef = A46F598E26B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F599126B292BE00A32573 /* Pods_4SeasonTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_4SeasonTests.framework;
+			remoteRef = A46F599026B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46F599326B292BE00A32573 /* FBLPromises.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBLPromises.framework;
+			remoteRef = A46F599226B292BE00A32573 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B7AC571F26E4F90900CA39A8 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = B7AC571E26E4F90900CA39A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4EC62ED266D26D700F92E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4301B3126AC16CD00554849 /* FlyTicketTableViewCell.xib in Resources */,
+				A44728BD2673E90D005C3B99 /* SpringViewController.storyboard in Resources */,
+				A4D1E54C2673B2E300EE0AA1 /* autmun.gif in Resources */,
+				A4263D0B26AAE4F000FFF4FC /* WinterTableViewCell.xib in Resources */,
+				A4D1E5512673C54F00EE0AA1 /* summer.gif in Resources */,
+				A4EC6328266D328500F92E21 /* HomeViewController.storyboard in Resources */,
+				A46F593B26B1994C00A32573 /* AutmunBookViewController.storyboard in Resources */,
+				A44728CA26740202005C3B99 /* AutmunViewController.storyboard in Resources */,
+				A46E28042691C56000ACC653 /* SpringHotelViewController.storyboard in Resources */,
+				A46F595126B1DCF100A32573 /* WinterBookViewController.storyboard in Resources */,
+				A4D1E54F2673C54100EE0AA1 /* winter.gif in Resources */,
+				A4714F7D267662B70004C0A8 /* MemoriesViewController.storyboard in Resources */,
+				A40DF9702673903A00AE7557 /* MenuViewController.storyboard in Resources */,
+				A4EC632C266D32DE00F92E21 /* SignUpViewController.storyboard in Resources */,
+				A4714F81267662D90004C0A8 /* SettingsViewController.storyboard in Resources */,
+				A46E28062691C59600ACC653 /* SummerHotelViewController.storyboard in Resources */,
+				A4301B2B26ABF42900554849 /* FlyTicketViewController.storyboard in Resources */,
+				A4714F702676621F0004C0A8 /* WeatherViewController.storyboard in Resources */,
+				A4D1E5532673C55B00EE0AA1 /* spring.gif in Resources */,
+				A462B63026ADB53C009668D2 /* SummerBookViewController.storyboard in Resources */,
+				A4714F6C267661E80004C0A8 /* TaxViewController.storyboard in Resources */,
+				A4714F79267662720004C0A8 /* CameraViewController.storyboard in Resources */,
+				A46E280D2691C90700ACC653 /* AutmunHotelViewController.storyboard in Resources */,
+				A426120426A42C360035B241 /* TaxTableViewCell.xib in Resources */,
+				A4EC62FF266D26DA00F92E21 /* LaunchScreen.storyboard in Resources */,
+				A40DF97A26739D5E00AE7557 /* AboutViewController.storyboard in Resources */,
+				A44728CE26740291005C3B99 /* WinterViewController.storyboard in Resources */,
+				A462B63926ADCE25009668D2 /* SummerHotelTableViewCell.xib in Resources */,
+				B7AC573926E51AD700CA39A8 /* travelAnimation.json in Resources */,
+				A426120B26A5A64B0035B241 /* TaxCallViewController.storyboard in Resources */,
+				A4EC62FC266D26DA00F92E21 /* Assets.xcassets in Resources */,
+				A46E280F2691CB2A00ACC653 /* WinterHotelViewController.storyboard in Resources */,
+				A4EC62FA266D26D700F92E21 /* Main.storyboard in Resources */,
+				A46F593426B06BCE00A32573 /* AutmunHotelTableViewCell.xib in Resources */,
+				A4714F85267663010004C0A8 /* SignOutViewController.storyboard in Resources */,
+				A4E80983269B1423007F185A /* HotelViewController.storyboard in Resources */,
+				A4EC6334266D360000F92E21 /* LogInViewController.storyboard in Resources */,
+				A462B64926AE29CD009668D2 /* SpringBookViewController.storyboard in Resources */,
+				A44728C42673FE77005C3B99 /* SummerViewController.storyboard in Resources */,
+				B7AC572126E4F92600CA39A8 /* launchScreenJson.json in Resources */,
+				A426121026A5D4D70035B241 /* SpringHotelTableViewCell.xib in Resources */,
+				A4EC6338266D569D00F92E21 /* GoogleService-Info.plist in Resources */,
+				A4301B3826AC70E700554849 /* BookTicketFlyViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EC6303266D26DA00F92E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EC630E266D26DA00F92E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C2AFA81DE0DB102A5A6179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-4Season-4SeasonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D1CD3E2F617E38EE51AF74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-4Season/Pods-4Season-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-4Season/Pods-4Season-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-4Season/Pods-4Season-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BA0BD5698A6AE084CC33D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-4Season-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A432165F06DB5E551EF47E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-4SeasonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69844EED36594941785351A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-4Season-4SeasonUITests/Pods-4Season-4SeasonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-4Season-4SeasonUITests/Pods-4Season-4SeasonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-4Season-4SeasonUITests/Pods-4Season-4SeasonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4EC62EB266D26D700F92E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4301B3026AC16CD00554849 /* FlyTicketTableViewCell.swift in Sources */,
+				A4EC62F7266D26D700F92E21 /* ViewController.swift in Sources */,
+				A462B64026ADEE1E009668D2 /* SummerHotelCollectionViewCell.swift in Sources */,
+				A46F595426B2438200A32573 /* OnboardingViewController.swift in Sources */,
+				A4EC62F3266D26D700F92E21 /* AppDelegate.swift in Sources */,
+				B7AC573026E50AAA00CA39A8 /* SummerExtension.swift in Sources */,
+				A4301B3A26AC79C700554849 /* BookTicketFlyViewController.swift in Sources */,
+				A4714F6A267661DD0004C0A8 /* TaxViewController.swift in Sources */,
+				A46E280B2691C7B900ACC653 /* AutmunHotelViewController.swift in Sources */,
+				A4263D0A26AAE4F000FFF4FC /* WinterTableViewCell.swift in Sources */,
+				A46E28092691C5DC00ACC653 /* SummerHotelViewController.swift in Sources */,
+				A46F594F26B1DCE100A32573 /* WinterBookViewController.swift in Sources */,
+				A426120926A5A4F60035B241 /* TaxCallViewController.swift in Sources */,
+				A4C29D61269F2EE50014D5FE /* WeatherData.swift in Sources */,
+				A4C29D5F269F2A7C0014D5FE /* WeatherManager.swift in Sources */,
+				A46F594326B1B29A00A32573 /* WinterData.swift in Sources */,
+				A4EC632E266D330200F92E21 /* LogInViewController.swift in Sources */,
+				A462B62E26ADB510009668D2 /* SummerBookViewController.swift in Sources */,
+				B7AC573226E50C2C00CA39A8 /* WinterExtension.swift in Sources */,
+				A462B64426AE22C1009668D2 /* SpringData.swift in Sources */,
+				A462B63726ADCE14009668D2 /* SummerHotelTableViewCell.swift in Sources */,
+				A4714F7B267662930004C0A8 /* MemoriesViewController.swift in Sources */,
+				A40DF9682672B55700AE7557 /* MenuViewController.swift in Sources */,
+				A46E28022691C54700ACC653 /* SpringHotelViewController.swift in Sources */,
+				B7AC572426E4FCAB00CA39A8 /* LogInExtenssions.swift in Sources */,
+				A40DF96E26735DC600AE7557 /* gift+Extensions.swift in Sources */,
+				A462B65026AEAA03009668D2 /* SVGImgProcessor.swift in Sources */,
+				A46F593326B06BCE00A32573 /* AutmunHotelTableViewCell.swift in Sources */,
+				A4EC62F5266D26D700F92E21 /* SceneDelegate.swift in Sources */,
+				A4714F6526765BDF0004C0A8 /* HotelViewController.swift in Sources */,
+				A44728C22673FE58005C3B99 /* SummerViewController.swift in Sources */,
+				A44728BB2673E8FE005C3B99 /* SpringViewController.swift in Sources */,
+				A44728DA2674088A005C3B99 /* WinterCollectionViewCell.swift in Sources */,
+				A4EC6326266D326B00F92E21 /* HomeViewController.swift in Sources */,
+				A46F592A26AEDF7600A32573 /* SpringHotelCollectionViewCell.swift in Sources */,
+				A44728D726740737005C3B99 /* AutmunCollectionViewCell.swift in Sources */,
+				A44728D42674062B005C3B99 /* SummerCollectionViewCell.swift in Sources */,
+				A40DF96426726DEB00AE7557 /* UIVIewController+Extensions.swift in Sources */,
+				A40DF97826739B2E00AE7557 /* AboutViewController.swift in Sources */,
+				A4714F6E267662010004C0A8 /* WeatherViewController.swift in Sources */,
+				A426120E26A5D4170035B241 /* SpringHotelTableViewCell.swift in Sources */,
+				B7AC572D26E5098B00CA39A8 /* SpringExtension.swift in Sources */,
+				A4714F83267662F50004C0A8 /* SignOutViewController.swift in Sources */,
+				A4301B1C26AB558F00554849 /* NetworkManager.swift in Sources */,
+				A4EC632A266D32C100F92E21 /* SignUpViewController.swift in Sources */,
+				A484F7E926A60AEF0037911A /* UIImageViewExtensions.swift in Sources */,
+				B7AC572A26E5066F00CA39A8 /* SignUpExtension.swift in Sources */,
+				A44728CC2674027C005C3B99 /* WinterViewController.swift in Sources */,
+				A4301B2926ABF40F00554849 /* FlyTicketViewController.swift in Sources */,
+				A4E0ECF72674FD3F00D940F1 /* SlideInTransition.swift in Sources */,
+				A4E417E126761694004CBA5C /* LikeAnimator.swift in Sources */,
+				A4714F7F267662CC0004C0A8 /* SettingsViewController.swift in Sources */,
+				A4C29D63269F2F160014D5FE /* WeatherModel.swift in Sources */,
+				A4301B1126AB506500554849 /* UITableView+Extensions.swift in Sources */,
+				A426120726A462A60035B241 /* TaxData.swift in Sources */,
+				B7AC572726E5057800CA39A8 /* LaunchScreenExtension.swift in Sources */,
+				A4301B1F26AB5C5A00554849 /* Winter.swift in Sources */,
+				A46F593E26B19FA400A32573 /* AutmunHotelCollectionViewCell.swift in Sources */,
+				A44728C6267401DF005C3B99 /* AutmunViewController.swift in Sources */,
+				A46F593626B0718400A32573 /* AutmunData.swift in Sources */,
+				A46F594D26B1D01700A32573 /* WinterHotelCollectionViewCell.swift in Sources */,
+				A462B64B26AE2B0D009668D2 /* SpringBookViewController.swift in Sources */,
+				A4301B1426AB50AF00554849 /* UITableViewCell+Extension.swift in Sources */,
+				A46F593926B1993C00A32573 /* AutmunBookViewController.swift in Sources */,
+				A46E28112691CB4100ACC653 /* WinterHotelViewController.swift in Sources */,
+				A4714F772676625D0004C0A8 /* CameraViewController.swift in Sources */,
+				A44728D1267405F1005C3B99 /* SpringCollectionViewCell.swift in Sources */,
+				A4301B1826AB541B00554849 /* WintersManager.swift in Sources */,
+				A426120326A42C360035B241 /* TaxTableViewCell.swift in Sources */,
+				B7AC573626E5122F00CA39A8 /* FlyTicketDAata.swift in Sources */,
+				A462B63D26ADD38C009668D2 /* SummerData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EC6301266D26DA00F92E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EC630A266D26DA00F92E21 /* _SeasonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EC630C266D26DA00F92E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EC6315266D26DA00F92E21 /* _SeasonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4EC6307266D26DA00F92E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EC62EE266D26D700F92E21 /* 4Season */;
+			targetProxy = A4EC6306266D26DA00F92E21 /* PBXContainerItemProxy */;
+		};
+		A4EC6312266D26DA00F92E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EC62EE266D26D700F92E21 /* 4Season */;
+			targetProxy = A4EC6311266D26DA00F92E21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4EC62F8266D26D700F92E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EC62F9266D26D700F92E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4EC62FD266D26DA00F92E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EC62FE266D26DA00F92E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4EC6317266D26DA00F92E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4EC6318266D26DA00F92E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4EC631A266D26DA00F92E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB60A2573489787790CBCB6 /* Pods-4Season.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/4Season/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "davaleba.-Season";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4EC631B266D26DA00F92E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE72C7002A899062E2F99A7 /* Pods-4Season.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/4Season/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "davaleba.-Season";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4EC631D266D26DA00F92E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5507C236EED792B2FEB48E54 /* Pods-4SeasonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 4SeasonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "davaleba.-SeasonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4Season.app/4Season";
+			};
+			name = Debug;
+		};
+		A4EC631E266D26DA00F92E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCAAF9EBF3654CA926D2177 /* Pods-4SeasonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 4SeasonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "davaleba.-SeasonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4Season.app/4Season";
+			};
+			name = Release;
+		};
+		A4EC6320266D26DA00F92E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BDC5405425A9553DDB947A /* Pods-4Season-4SeasonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 4SeasonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "davaleba.-SeasonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 4Season;
+			};
+			name = Debug;
+		};
+		A4EC6321266D26DA00F92E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A0777CA039AF5B914E23F1 /* Pods-4Season-4SeasonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 4SeasonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "davaleba.-SeasonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 4Season;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4EC62EA266D26D700F92E21 /* Build configuration list for PBXProject "4Season" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EC6317266D26DA00F92E21 /* Debug */,
+				A4EC6318266D26DA00F92E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EC6319266D26DA00F92E21 /* Build configuration list for PBXNativeTarget "4Season" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EC631A266D26DA00F92E21 /* Debug */,
+				A4EC631B266D26DA00F92E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EC631C266D26DA00F92E21 /* Build configuration list for PBXNativeTarget "4SeasonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EC631D266D26DA00F92E21 /* Debug */,
+				A4EC631E266D26DA00F92E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EC631F266D26DA00F92E21 /* Build configuration list for PBXNativeTarget "4SeasonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EC6320266D26DA00F92E21 /* Debug */,
+				A4EC6321266D26DA00F92E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A44728DB2674A34A005C3B99 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+		A462B64C26AEA5BB009668D2 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.7.2;
+			};
+		};
+		A46F592B26AF0B6800A32573 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A44728DC2674A34A005C3B99 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A44728DB2674A34A005C3B99 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A46F592C26AF0B6800A32573 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A46F592B26AF0B6800A32573 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		A46F592E26AF0B6800A32573 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A46F592B26AF0B6800A32573 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A4EC62E7266D26D700F92E21 /* Project object */;
+}

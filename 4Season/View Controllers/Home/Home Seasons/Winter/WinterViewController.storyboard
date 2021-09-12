@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Winter View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="WinterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="WinterViewController" customModule="_Season" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="a0D-bs-9av">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="h0v-LL-9yc">
+                                    <size key="itemSize" width="176" height="173"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="WinterCollectionViewCell" reuseIdentifier="WinterCollectionViewCell" id="sCc-Xm-jLh" customClass="WinterCollectionViewCell" customModule="_Season" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="176" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="5hm-fq-XxD">
+                                            <rect key="frame" x="0.0" y="0.0" width="176" height="173"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QKg-5V-gjj">
+                                                    <rect key="frame" x="0.0" y="0.0" width="176" height="173"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PdZ-4p-Vxh">
+                                                    <rect key="frame" x="0.0" y="86.5" width="176" height="0.0"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" id="MDg-mM-tRh"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="OJY-AX-mLf"/>
+                                                        <constraint firstAttribute="width" constant="176" id="xRN-0P-ylS"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="T8z-Za-BQY">
+                                                    <rect key="frame" x="121" y="121" width="55" height="51"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="55" id="mrS-9H-3HP"/>
+                                                        <constraint firstAttribute="height" constant="55" id="tPM-nk-Qkk"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="PdZ-4p-Vxh" firstAttribute="trailing" secondItem="QKg-5V-gjj" secondAttribute="trailing" id="1HM-yw-DQ2"/>
+                                                <constraint firstAttribute="bottom" secondItem="T8z-Za-BQY" secondAttribute="bottom" id="Fmg-kd-MZ9"/>
+                                                <constraint firstItem="PdZ-4p-Vxh" firstAttribute="leading" secondItem="QKg-5V-gjj" secondAttribute="leading" id="Odo-eq-nAc"/>
+                                                <constraint firstItem="PdZ-4p-Vxh" firstAttribute="leading" secondItem="5hm-fq-XxD" secondAttribute="leading" id="SQQ-gk-ONK"/>
+                                                <constraint firstItem="PdZ-4p-Vxh" firstAttribute="centerX" secondItem="5hm-fq-XxD" secondAttribute="centerX" id="dsi-wB-KFG"/>
+                                                <constraint firstItem="PdZ-4p-Vxh" firstAttribute="trailing" secondItem="T8z-Za-BQY" secondAttribute="trailing" id="mnG-D1-9fK"/>
+                                                <constraint firstItem="QKg-5V-gjj" firstAttribute="top" secondItem="5hm-fq-XxD" secondAttribute="top" id="o5r-6U-IxX"/>
+                                                <constraint firstItem="PdZ-4p-Vxh" firstAttribute="centerY" secondItem="QKg-5V-gjj" secondAttribute="centerY" id="rfB-2X-enC"/>
+                                                <constraint firstItem="PdZ-4p-Vxh" firstAttribute="centerY" secondItem="5hm-fq-XxD" secondAttribute="centerY" id="xA7-vi-0Ks"/>
+                                                <constraint firstItem="T8z-Za-BQY" firstAttribute="top" secondItem="PdZ-4p-Vxh" secondAttribute="bottom" constant="33" id="zQg-fa-3qA"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="176" height="173"/>
+                                        <connections>
+                                            <outlet property="isLikedImageView" destination="T8z-Za-BQY" id="SNT-tO-zco"/>
+                                            <outlet property="likeImageViewWidthConstraint" destination="xRN-0P-ylS" id="Gcw-tE-cZY"/>
+                                            <outlet property="winterimageView" destination="QKg-5V-gjj" id="edT-Af-jPP"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.80784313725490198" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="a0D-bs-9av" id="Uin-xF-ojA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="-21.428571428571427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+    </resources>
+</document>

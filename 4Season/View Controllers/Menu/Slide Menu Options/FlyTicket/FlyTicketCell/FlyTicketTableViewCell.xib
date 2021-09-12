@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="FlyTicketTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="153" id="KGk-i7-Jjw" customClass="FlyTicketTableViewCell" customModule="_Season" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ticket" translatesAutoresizingMaskIntoConstraints="NO" id="ls5-WP-kne">
+                        <rect key="frame" x="13" y="14" width="128" height="128"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="3pV-Un-kiP">
+                        <rect key="frame" x="164" y="14" width="170" height="128"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAb-pf-inG">
+                                <rect key="frame" x="0.0" y="0.0" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gi-wL-T0D">
+                                <rect key="frame" x="0.0" y="27" width="170" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaY-01-fCy">
+                                <rect key="frame" x="0.0" y="53.5" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncz-yl-wtW">
+                                <rect key="frame" x="0.0" y="80.5" width="170" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYb-fo-DtT">
+                                <rect key="frame" x="0.0" y="107" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="qK3-EV-Dli"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ls5-WP-kne" secondAttribute="bottom" constant="11" id="DyJ-NI-k8s"/>
+                    <constraint firstItem="3pV-Un-kiP" firstAttribute="centerY" secondItem="ls5-WP-kne" secondAttribute="centerY" id="R9L-XO-rLH"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="3pV-Un-kiP" secondAttribute="trailing" constant="-4" id="S5h-6E-w4Z"/>
+                    <constraint firstItem="ls5-WP-kne" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="YYb-kg-T5I"/>
+                    <constraint firstItem="3pV-Un-kiP" firstAttribute="top" secondItem="ls5-WP-kne" secondAttribute="top" id="eIl-IK-eeh"/>
+                    <constraint firstItem="3pV-Un-kiP" firstAttribute="leading" secondItem="ls5-WP-kne" secondAttribute="trailing" constant="23" id="knX-3z-8w5"/>
+                    <constraint firstItem="ls5-WP-kne" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="l31-4K-nP2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="classLabel" destination="WYb-fo-DtT" id="ou5-hq-BnE"/>
+                <outlet property="departLabel" destination="gaY-01-fCy" id="lYE-ZD-4HQ"/>
+                <outlet property="fromwhreLabel" destination="QAb-pf-inG" id="y5E-DM-MIS"/>
+                <outlet property="returnLAbel" destination="ncz-yl-wtW" id="UKN-yK-tUr"/>
+                <outlet property="towhereLabel" destination="5gi-wL-T0D" id="ZTW-fC-pGQ"/>
+            </connections>
+            <point key="canvasLocation" x="92.753623188405811" y="114.84375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ticket" width="1000" height="1080"/>
+    </resources>
+</document>

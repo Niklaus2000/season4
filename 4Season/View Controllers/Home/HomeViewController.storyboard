@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="Y6W-OH-hqX" customClass="HomeViewController" customModule="_Season" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tda-0A-hig">
+                                <rect key="frame" x="0.0" y="44" width="414" height="409"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QOd-p1-6mX">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="409"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aRa-aK-843">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="409"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="d9l-E8-yy7">
+                                <rect key="frame" x="0.0" y="453" width="414" height="409"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wh3-mZ-y0Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="409"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J0O-Bu-qf4">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="409"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="d9l-E8-yy7" firstAttribute="top" secondItem="tda-0A-hig" secondAttribute="bottom" id="01h-4P-Lo7"/>
+                            <constraint firstItem="tda-0A-hig" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="3kM-MG-TkR"/>
+                            <constraint firstItem="tda-0A-hig" firstAttribute="width" secondItem="vDu-zF-Fre" secondAttribute="width" id="52e-UT-AT3"/>
+                            <constraint firstItem="tda-0A-hig" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="DUP-MK-dbh"/>
+                            <constraint firstItem="tda-0A-hig" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="IsD-U2-qxB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="d9l-E8-yy7" secondAttribute="bottom" id="LFr-6f-Fy3"/>
+                            <constraint firstAttribute="trailing" secondItem="d9l-E8-yy7" secondAttribute="trailing" id="j8X-tl-VI8"/>
+                            <constraint firstItem="d9l-E8-yy7" firstAttribute="height" secondItem="vDu-zF-Fre" secondAttribute="height" multiplier="0.5" id="lJy-Rs-ZUz"/>
+                            <constraint firstItem="d9l-E8-yy7" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="nxB-22-ovF"/>
+                            <constraint firstItem="tda-0A-hig" firstAttribute="height" secondItem="vDu-zF-Fre" secondAttribute="height" multiplier="0.5" id="t5U-2e-M8H"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="OGZ-fh-Tar">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" image="line.horizontal.3" catalog="system" id="s82-8O-6f7">
+                            <color key="tintColor" red="0.1843137255" green="0.94901960780000005" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="didTapMenu:" destination="Y6W-OH-hqX" id="dv7-tX-92E"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="line.horizontal.3.decrease" catalog="system" id="nbe-B0-Qz8">
+                            <color key="tintColor" red="0.1843137255" green="0.94901960780000005" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="didTapMenuOut:" destination="Y6W-OH-hqX" id="66V-hM-j8a"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="autmungifImageView" destination="Wh3-mZ-y0Q" id="xeH-or-qqu"/>
+                        <outlet property="springgifImageView" destination="QOd-p1-6mX" id="6Z2-7H-inO"/>
+                        <outlet property="summergifImageView" destination="aRa-aK-843" id="CCA-kK-bhz"/>
+                        <outlet property="wintergifImageView" destination="J0O-Bu-qf4" id="EGz-2r-KM0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2684.057971014493" y="212.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="line.horizontal.3.decrease" catalog="system" width="128" height="73"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

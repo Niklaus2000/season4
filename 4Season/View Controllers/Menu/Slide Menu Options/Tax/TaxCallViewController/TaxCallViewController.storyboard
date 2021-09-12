@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tax Call View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="TaxCallViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="TaxCallViewController" customModule="_Season" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="male-image" translatesAutoresizingMaskIntoConstraints="NO" id="rLg-x6-NC8">
+                                <rect key="frame" x="24" y="205" width="366" height="157"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LUC-9D-Knq">
+                                <rect key="frame" x="24" y="405" width="366" height="265"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1T-Bn-vbA">
+                                        <rect key="frame" x="0.0" y="0.0" width="366" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="NRb-9g-fse"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" cyan="0.42999999999999999" magenta="0.0" yellow="0.36469757559999999" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3o7-mw-jL5">
+                                        <rect key="frame" x="0.0" y="55" width="366" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" red="0.48627450979999998" green="0.75294117650000003" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6h-sr-7c6">
+                                        <rect key="frame" x="0.0" y="110" width="366" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" red="0.48627450979999998" green="0.75294117650000003" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnt-Gc-8Nj">
+                                        <rect key="frame" x="0.0" y="165" width="366" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" red="0.48627450979999998" green="0.75294117650000003" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVr-rt-kSf">
+                                        <rect key="frame" x="0.0" y="220" width="366" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Call">
+                                            <color key="titleColor" red="0.48627450979999998" green="0.75294117650000003" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="callButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="rPN-V4-Ow7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LUC-9D-Knq" secondAttribute="bottom" constant="192" id="1al-V9-GHa"/>
+                            <constraint firstItem="rLg-x6-NC8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="7p1-X2-w71"/>
+                            <constraint firstItem="LUC-9D-Knq" firstAttribute="top" secondItem="rLg-x6-NC8" secondAttribute="bottom" constant="43" id="DJm-cW-Zjx"/>
+                            <constraint firstItem="LUC-9D-Knq" firstAttribute="trailing" secondItem="rLg-x6-NC8" secondAttribute="trailing" id="G5n-Jo-hwk"/>
+                            <constraint firstItem="rLg-x6-NC8" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="161" id="Zzb-vs-lmv"/>
+                            <constraint firstItem="h6h-sr-7c6" firstAttribute="leading" secondItem="rLg-x6-NC8" secondAttribute="leading" id="e3t-de-ub9"/>
+                            <constraint firstItem="LUC-9D-Knq" firstAttribute="leading" secondItem="rLg-x6-NC8" secondAttribute="leading" id="g1G-hB-8x2"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rLg-x6-NC8" secondAttribute="trailing" constant="24" id="u1F-2A-e6r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="taxcallnumberLabel" destination="Mnt-Gc-8Nj" id="fMp-Io-Cdu"/>
+                        <outlet property="taxcolorLabel" destination="3o7-mw-jL5" id="y8m-GK-xio"/>
+                        <outlet property="taximageView" destination="rLg-x6-NC8" id="Yvp-GX-tyD"/>
+                        <outlet property="taxnameLabel" destination="u1T-Bn-vbA" id="zc9-Vp-rLL"/>
+                        <outlet property="taxnumberLabel" destination="h6h-sr-7c6" id="8v7-KL-q0c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="63.616071428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="male-image" width="439" height="439"/>
+    </resources>
+</document>

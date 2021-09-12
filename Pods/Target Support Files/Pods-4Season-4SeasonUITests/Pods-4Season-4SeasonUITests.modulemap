@@ -1,0 +1,6 @@
+framework module Pods_4Season_4SeasonUITests {
+  umbrella header "Pods-4Season-4SeasonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
